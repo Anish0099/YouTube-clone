@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .rs{
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 100px;
+      top: 0;
+      background-color: green;
+      color: white;
+    }
+    .modal{
+      position: fixed;
+      bottom: 0px;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-div{
+      width: 500px;
+      height: 130px;
+      background-color: white;
+      border-radius: 8px;
+    }
+    .header{
+      position: fixed;
+    }
+  </style>
+  
+</head>
+<body style="height:3000px">
+  <div class="rs">right-sidebar</div>
+  <div class="modal">
+    <div class="modal-div">
+      <p style="margin-left: 24px;font-weight: bold;font-size: larger;font-family: Arial;">Modal Title</p>
+      <p style="margin-left: 24px;font-family: Arial;font-size: medium;">This is a modal</p>
+      <button style="margin-left: 24px;">Close</button>
+      </div>
+  </div>
+
+  <div class="header">
+    header
+  </div>
+  
+  
+</body>
+</html>
